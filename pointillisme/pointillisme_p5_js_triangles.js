@@ -17,7 +17,7 @@ function setup() {
 
 function draw() {
   let pointillize = map(mouseX, 0, img.width, smallPoint, largePoint, largePoint);
-    //Re-maps a number from one range to another, ici abscisse horizontale en pixels au diamètre des points avec la limite max à la largeur de l'image. 
+
   let x = floor(random(img.width));
   let y = floor(random(img.height));
   let pix = img.get(x, y);
@@ -25,7 +25,7 @@ function draw() {
   let G1 = pix[1];
   let B1 = pix[2];
   fill(R1, G1, B1 , 128);
-//  ellipse(x, y, pointillize, pointillize);
+
     
     let X1 = x;
     let Y1 = y;
