@@ -2,7 +2,8 @@ let img;
 let smallPoint, largePoint;
 
 function preload() {
-  img = loadImage('data/kitten.jpg');
+ // img = loadImage('data/kitten.jpg');
+  img = loadImage('https://raw.githubusercontent.com/Atchoumdev/data/4ee92a6a4c28b5d3ffc6bb74b3fa27f411e29eb4/pointillisme/data/kitten.jpg');
 }
 
 function setup() {
